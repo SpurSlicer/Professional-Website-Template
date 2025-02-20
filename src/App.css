@@ -1,0 +1,46 @@
+:root {
+  --bk_border_width: 40px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border-width: 0px;
+  scroll-behavior: auto;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, li, p {
+  text-overflow: ellipsis;
+}
+
+/* html, body {
+  display: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+} */
+
+/* .main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+} */
+
+.main .domain {
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  html, body, .main, .main .domain, #root {
+   background-color: black;
+  }
+}
+@media (prefers-color-scheme: light) {
+  html, body, .main, .main .domain, #root {
+    background-color: white;
+   }
+}

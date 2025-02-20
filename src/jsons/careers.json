@@ -1,0 +1,20 @@
+{
+    "careers": [
+        {
+            "title": "title",
+            "position": "title",
+            "image": "../assets/facepic.png",
+            "supervisor": "title",
+            "responsibilities": ["title"],
+            "technologies": ["title"]
+        },
+        {
+            "title": "title",
+            "position": "title",
+            "image": "../assets/facepic.png",
+            "supervisor": "title",
+            "responsibilities": ["title"],
+            "technologies": ["title"]
+        }
+    ]
+}
