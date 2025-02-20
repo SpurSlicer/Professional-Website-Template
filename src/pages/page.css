@@ -53,7 +53,7 @@
     z-index: 1;
     justify-content: center;
     align-items: center;
-    overflow-y: hidden
+    overflow: hidden
 }
 
 .home .left_col, .home .right_col {

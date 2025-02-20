@@ -90,6 +90,7 @@ function Navbar({ setCurrentPage }) {
   handleIconClickWrapper = (e, navigate, setCurrentPage, mininav_status, setMiniNavStatus) => {
     resetWaffleIcon();
     handleIconClick(e, navigate, setCurrentPage, mininav_status, setMiniNavStatus);
+    document.body.style.setProperty("overflow",  "visible");
   }
 
   handleClick = (e) => {
