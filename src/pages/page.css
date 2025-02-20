@@ -614,7 +614,7 @@
 .about-me .explanation .border .spacer {
     /* background-color: white; */
     /* line-height: 40px;   within paragraph */
-    display:inline-block;
+    display:block;
     width: 100%;
     height: 25px;
 }
