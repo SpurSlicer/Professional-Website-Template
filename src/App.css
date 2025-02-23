@@ -8,6 +8,7 @@
   border-width: 0px;
   scroll-behavior: auto;
   list-style: none;
+  image-rendering: optimizeSpeed;
 }
 
 h1, h2, h3, h4, h5, li, p {
